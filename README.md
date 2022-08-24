@@ -17,4 +17,4 @@ compute_generic_cyclic_features_with_insat(aspirin)
 
 sitagliptin = "C1CN2C(=NN=C2C(F)(F)F)CN1C(=O)CC(CC3=CC(=C(C=C3F)F)F)N"
 compute_generic_cyclic_features_with_insat(sitagliptin)
->>> ['C1=CC=CC=C1', 'C1CCC2=CC=CC2C1']
+>>> ['C1=CC=CC=C1', 'C1=CC2CCCCC2=C1']
