@@ -20,3 +20,9 @@ compute_generic_cyclic_features_with_insat(aspirin)
 sitagliptin = "C1CN2C(=NN=C2C(F)(F)F)CN1C(=O)CC(CC3=CC(=C(C=C3F)F)F)N"
 compute_generic_cyclic_features_with_insat(sitagliptin)
 >>> ['C1=CC=CC=C1', 'C1=CC2CCCCC2=C1']
+
+ribavirin = "C1=NC(=NN1C2C(C(C(O2)CO)O)O)C(=O)N"
+compute_generic_cyclic_features_with_insat(ribavirin)
+>>> ['C1=CCC=C1', 'C1CCCC1']
+
+```
